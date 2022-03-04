@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Profile</title>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-3">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">PRODUCT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">INVENTORY</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="mt-5">
+      <div class="container">
+        <div class="card p-4 border-0 shadow">
+          <div class="row">
+            <div class="col-md-2 col-sm-12">
+              <img
+                class="rounded-circle"
+                src="assets/image.png"
+                alt="Profile Picture"
+                width="120px"
+              />
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <h4>I Nyoman Triarta</h4>
+              <p>Front End Developer</p>
+              <button class="btn btn-primary px-4">Kontak</button>
+              <button class="btn btn-outline-danger px-3 ms-2">Resume</button>
+            </div>
+            <div class="col-md-4 col-sm-12 border-start">
+              <table>
+                <tr>
+                  <td class="pe-5"><b>Availability</b></td>
+                  <td>Fulltime</td>
+                </tr>
+                <tr>
+                  <td class="pe-5"><b>Usia</b></td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td class="pe-5"><b>Lokasi</b></td>
+                  <td>Bali, Indonesia</td>
+                </tr>
+                <tr>
+                  <td class="pe-5"><b>Pengalaman</b></td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td class="pe-5"><b>Email</b></td>
+                  <td>triarta.art@gmail.com</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5">
+      <div class="container">
+        <div class="card border-0 shadow p-4">
+          <form action="#">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" />
+            </div>
+            <div class="mb-3">
+              <label for="role" class="form-label">Role</label>
+              <input type="text" class="form-control" id="role" />
+            </div>
+            <div class="mb-3">
+              <label for="availability" class="form-label">Availability</label>
+              <input type="text" class="form-control" id="availability" />
+            </div>
+            <div class="mb-3">
+              <label for="age" class="form-label">Age</label>
+              <input type="text" class="form-control" id="age" />
+            </div>
+            <div class="mb-3">
+              <label for="lokasi" class="form-label">Lokasi</label>
+              <input type="text" class="form-control" id="lokasi" />
+            </div>
+            <div class="mb-3">
+              <label for="year" class="form-label">Year Experience</label>
+              <input type="text" class="form-control" id="year" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" class="form-control" id="email" />
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-success" type="button">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PRODUCT</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">INVENTORY</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="content">
+      <img
+        class="profile-img"
+        src="assets/image.png"
+        alt="Profile Picture"
+        width="120px"
+      />
+      <div class="content-profile">
+        <h1>I Nyoman Triarta</h1>
+        <p>Front End Developer</p>
+        <button class="btn-contact">Kontak</button>
+        <button class="btn-resume">Resume</button>
+      </div>
+      <div class="content-detail">
+        <table>
+          <tr>
+            <td><b>Availability</b></td>
+            <td>Fulltime</td>
+          </tr>
+          <tr>
+            <td><b>Usia</b></td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td><b>Lokasi</b></td>
+            <td>Bali, Indonesia</td>
+          </tr>
+          <tr>
+            <td><b>Pengalaman</b></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td><b>Email</b></td>
+            <td>triarta.art@gmail.com</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section class="form">
+      <form action="#">
+        <div>
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" />
+        </div>
+        <div>
+          <label for="role">Role</label>
+          <input type="text" id="role" />
+        </div>
+        <div>
+          <label for="availability">Availability</label>
+          <input type="text" id="availability" />
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input type="text" id="age" />
+        </div>
+        <div>
+          <label for="lokasi">Lokasi</label>
+          <input type="text" id="lokasi" />
+        </div>
+        <div>
+          <label for="year">Year Experience</label>
+          <input type="text" id="year" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" />
+        </div>
+        <button class="btn-submit">SUBMIT</button>
+      </form>
+    </section>
+  </body>
+</html> -->
